@@ -10,8 +10,8 @@
 
 body{
     background-color: rgb(252, 227, 207);
-    margin: 15px;
-    padding: 5px;
+    /*margin: 15px;
+    padding: 5px;*/
     font-family: 'Roboto', sans-serif;
 }
 
@@ -165,12 +165,9 @@ section form label, input{
 footer{
     grid-area: footer;
     background-color: rgb(252, 238, 218);
-    height: 50px;
-    width: 98%;
-    margin: 30px;
-    padding: 10px;
+    padding: 5px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 footer h2{
@@ -179,12 +176,6 @@ footer h2{
 
 footer .redesSociales ul{
     list-style: none;
-    display: flex;
-}
-
-footer .redesSociales ul li{
-    margin-bottom: 10px;
-    padding: 10px;
 }
 
 footer .redesSociales ul li a{
@@ -225,6 +216,21 @@ footer .redesSociales ul li a{
 
     main .info{
         flex-direction: row;
+    }
+
+    /* estilos de footer */
+
+    footer{
+        justify-content: space-between;
+    }
+
+    footer .redesSociales ul{
+        list-style: none;
+        display: flex;
+    }
+
+    footer .redesSociales ul li{
+        margin: 10px;
     }
 }
 
