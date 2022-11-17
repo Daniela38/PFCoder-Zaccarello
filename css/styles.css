@@ -150,7 +150,8 @@ main .info h3{
 }
 
 section form{
-    width: 500px;
+    width: 330px;
+    padding: 10px;
     background-color: rgb(252, 238, 218);
     border-radius: 5px;
     box-shadow: 0.5px 0.5px 3px;
@@ -165,7 +166,7 @@ section form label, input{
 footer{
     grid-area: footer;
     background-color: rgb(252, 238, 218);
-    padding: 5px;
+    padding: 15px;
     display: flex;
     align-items: center;
 }
