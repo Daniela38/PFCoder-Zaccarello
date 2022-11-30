@@ -1,0 +1,14 @@
+main{
+    p{
+        font-size: $letra-grande;
+    }
+    ol{
+        text-align: left;
+    font-size: 1.1rem;
+    }
+}
+section{
+    .gapa, .inbody{
+        display: none;
+    }
+}

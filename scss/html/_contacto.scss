@@ -1,0 +1,23 @@
+main{
+    .info-uno, .info-dos{
+        img{
+            width: 3%;
+            height: 25%;
+        }
+    }
+}
+section{
+    form{
+        margin: 5px !important;
+        .form-control, .form-select, .btn{
+            @extend %estilosMenu;
+            font-size: $letra-chica
+        }
+        label{
+            font-size: $letra-chica;
+        }
+        .btn:hover{
+            transform: scale(1.1);
+        }
+    }
+}

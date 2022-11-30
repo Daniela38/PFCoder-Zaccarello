@@ -1,0 +1,19 @@
+main{
+    span{
+        font-weight: $letra-bold;
+    }
+    .p-uno{
+        font-size: $letra-grande;
+    }
+    .p-dos, .p-tres{
+        font-size: $letra-chica;
+    }
+}
+section{
+    @include flex;
+    img{
+        width: 100%;
+        box-shadow: 0.5px 0.5px 3px;
+        border-radius: 10px;
+    }
+}
