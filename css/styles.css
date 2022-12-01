@@ -60,11 +60,11 @@ section video {
 
 /* estilos del contenedor */
 .contenedor {
-  background-color: #fce3cf;
   height: 100vh; }
 
 /* estilos de header */
 header {
+  background-color: #fce3cf;
   display: flex;
   justify-content: space-around; }
   header .logo {

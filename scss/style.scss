@@ -15,11 +15,11 @@
 
 /* estilos del contenedor */
 .contenedor{
-    background-color: $color-fondo;
     height: 100vh;
 }
 /* estilos de header */
 header{
+    background-color: $color-fondo;
     display: flex;
     justify-content: space-around;
     .logo{
