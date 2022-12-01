@@ -43,6 +43,11 @@ header{
 /* estilos de main */
 main{
     @include flex;
+    background-color: $color-fondo
+}
+/* estilos de section */
+section{
+    background-color: $color-fondo
 }
 /* estilos de footer */
 footer{

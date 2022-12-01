@@ -84,7 +84,12 @@ main {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around; }
+  justify-content: space-around;
+  background-color: #fce3cf; }
+
+/* estilos de section */
+section {
+  background-color: #fce3cf; }
 
 /* estilos de footer */
 footer {
