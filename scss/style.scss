@@ -50,8 +50,14 @@ footer{
     background-color: $color-claro;
     border: solid;
     border-color: bisque;
-    h2{
-        font-size: $letra-chica;
+    .derechos{
+        h2{
+            font-size: $letra-chica;
+        }
+        h3{
+            font-size: 1.1rem;
+            font-style: italic;
+        }
     }
     ul{
         list-style: none;

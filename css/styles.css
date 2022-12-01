@@ -96,8 +96,11 @@ footer {
   background-color: #fffbf6;
   border: solid;
   border-color: bisque; }
-  footer h2 {
+  footer .derechos h2 {
     font-size: 1.2rem; }
+  footer .derechos h3 {
+    font-size: 1.1rem;
+    font-style: italic; }
   footer ul {
     list-style: none; }
     footer ul li {
