@@ -9,9 +9,14 @@ main{
 section{
     form{
         margin: 5px !important;
+        padding: 25px;
+        border: solid;
+        border-radius: 25px;
+        border-color: rgb(134, 132, 130);
+        box-shadow: 0.5px 0.5px 3px;
         .form-control, .form-select, .btn{
             @extend %estilosMenu;
-            font-size: $letra-chica
+            font-size: $letra-chica;
         }
         label{
             font-size: $letra-chica;

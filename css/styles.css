@@ -46,7 +46,12 @@ main .info-uno img, main .info-dos img {
   height: 25%; }
 
 section form {
-  margin: 5px !important; }
+  margin: 5px !important;
+  padding: 25px;
+  border: solid;
+  border-radius: 25px;
+  border-color: #868482;
+  box-shadow: 0.5px 0.5px 3px; }
   section form .form-control, section form .form-select, section form .btn {
     font-size: 1.2rem; }
   section form label {
@@ -55,8 +60,7 @@ section form {
     transform: scale(1.1); }
 
 section video {
-  width: 50%;
-  margin-left: 50px; }
+  height: 500px; }
 
 /* estilos del contenedor */
 .contenedor {

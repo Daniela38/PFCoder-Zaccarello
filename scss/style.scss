@@ -27,7 +27,7 @@ header{
         img{
             width: 100px; 
             height: 100px;
-            border-radius: 200px; 
+            border-radius: 200px;
         }
     }    
     .alineacion-menu{
@@ -36,18 +36,18 @@ header{
             @extend %estilosMenu;
         }
         .botones-menu:hover{
-                transform: scale(1.04);
+            transform: scale(1.04);
         }
     }
 }
 /* estilos de main */
 main{
     @include flex;
-    background-color: $color-fondo
+    background-color: $color-fondo;
 }
 /* estilos de section */
 section{
-    background-color: $color-fondo
+    background-color: $color-fondo;
 }
 /* estilos de footer */
 footer{
