@@ -44,10 +44,12 @@ header{
 main{
     @include flex;
     background-color: $color-fondo;
+    padding: 20px;
 }
 /* estilos de section */
 section{
     background-color: $color-fondo;
+    padding: 20px;
 }
 /* estilos de footer */
 footer{

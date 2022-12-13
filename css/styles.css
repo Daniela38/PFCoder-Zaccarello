@@ -14,11 +14,8 @@ section form .form-control, section form .form-select, section form .btn, header
 main span {
   font-weight: bold; }
 
-main .p-uno {
+main .p-uno, main .p-dos, main .p-tres {
   font-size: 1.3rem; }
-
-main .p-dos, main .p-tres {
-  font-size: 1.2rem; }
 
 section {
   text-align: center;
@@ -89,11 +86,13 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: #fce3cf; }
+  background-color: #fce3cf;
+  padding: 20px; }
 
 /* estilos de section */
 section {
-  background-color: #fce3cf; }
+  background-color: #fce3cf;
+  padding: 20px; }
 
 /* estilos de footer */
 footer {

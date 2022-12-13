@@ -2,11 +2,8 @@ main{
     span{
         font-weight: $letra-bold;
     }
-    .p-uno{
+    .p-uno, .p-dos, .p-tres{
         font-size: $letra-grande;
-    }
-    .p-dos, .p-tres{
-        font-size: $letra-chica;
     }
 }
 section{
